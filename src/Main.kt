@@ -28,4 +28,19 @@ fun main() {
     println(texto.uppercase()) // Deixa texto em maiúsculo
     println(texto.contains("pessoal")) //  Veifica se o "pessoal" existe na String que foi passada. .contains => contém
     println("Bom dia, pessoal! Eu tenho ${idade} anos, mas daqui um ano terei ${idade + 1}!")
+
+    // Formas de quebrar a linha:
+    println("""
+        Texto
+        escrito em varias
+        linhas""")
+    println("texto\nEscrito em varias\nLinhas")
+
+
+    val letra = 'j' // Para guardar um único caracter, devemos usar aspas simples, para ser inferido a tipagem "Char"
+    println(letra)
+
+    val populacao = 7_000_000_000_000L // Ao colocar o "L"ao final do número, ele infere que será um Long ou seja, receberá um número grande
+    println(populacao)
+
 }
