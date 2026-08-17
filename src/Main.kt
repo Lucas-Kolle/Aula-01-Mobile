@@ -17,10 +17,15 @@
 */
 
 fun main() {
-    println("Hello World!")
 
-    val pi = 3.14
-    var idade = 27
+    val pi= 3.14 // Deixando o kotlin adicionar o tipo de variável
+    var idade: Int  = 27 // Adicionando o tipo de variável manualmente
 
-    idade = 30
+    val texto: String = "Bom dia, pessoal!"
+
+    println(texto) // Mostra apenas o texto
+    println(texto.length) // Mostra o tamanho do texto
+    println(texto.uppercase()) // Deixa texto em maiúsculo
+    println(texto.contains("pessoal")) //  Veifica se o "pessoal" existe na String que foi passada. .contains => contém
+    println("Bom dia, pessoal! Eu tenho ${idade} anos, mas daqui um ano terei ${idade + 1}!")
 }
