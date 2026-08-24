@@ -39,7 +39,7 @@ fun main() {
 
     val -> valor que não será alterado
     var -> valor que pode ser alterado
-*/
+    */
 
 
     /*
@@ -334,7 +334,7 @@ fun main() {
     }
 
     Exemplo:
-*/
+    */
 
     fun mostrarMensagem(){
 
@@ -424,5 +424,5 @@ fun main() {
 
     }
 
-
 }
+
