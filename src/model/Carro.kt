@@ -22,7 +22,7 @@ open class Carro/*( // Open => permite que outras classes herdem suas caracteris
     private var kilometragem: Double = 0.0
 
     // Criando um metodo
-    fun acelerar() {
+    open fun acelerar() { // open => Permite que ele seja usado pelos seus "filhos" / "herdeiros"
         println("Método acelerar Chamado! vrum-vrum")
 
     }

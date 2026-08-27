@@ -1,5 +1,6 @@
 // Importando o arquivo / classe da classe "Carro" que nós criamos
 import model.Carro
+import model.CarroTunado
 
 /*****************************************************************************************************************************************************************
  * Objetivo: Ar uivo para testar as possibilidades da linguagem
@@ -56,4 +57,16 @@ fun main() {
     carro1.acelerar()
     carro1.rodar(1_000.33)
     println(carro1.consultarKm())
+
+    // Criando carros por meio da classe "CarroTunado"
+    val  carroTunado = CarroTunado()
+    carroTunado.modelo = "skyline"
+    carroTunado.ano = 1999
+    carroTunado.ranking = 'S'
+
+    println()
+    println(carroTunado.modelo)
+    println(carroTunado.ano)
+    println(carroTunado.ranking)
+    carroTunado.acelerar()
 }
